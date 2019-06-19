@@ -23,6 +23,7 @@ class SearchBar extends Component {
                     <div className='field'>
                         <label>Image search</label>
                         <input 
+                            placeholder
                             type='text' 
                             value={this.state.term} 
                             onChange= {event => {this.setState({term:event.target.value})}}
